@@ -1,8 +1,10 @@
 function setup() {
-	createCanvas(400, 400);
-	background(255, 255, 0);
+  let canvas = createCanvas(500, 400);
+  canvas.parent("p5-canvas-container");
+  background(220);
 }
 
 function draw() {
-
+  fill(0);
+  rect(100, 100, 200, 200);
 }
